@@ -1,0 +1,65 @@
+.App {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  font-weight: bold;
+  color: #465B59;
+}
+
+input {
+  color:#89696D;
+  font-size: 20px;
+  margin-top: 0.8rem;
+  background-color: #CFEFEB;
+  padding: 0.5rem 1rem;
+  border: 3px solid transparent;
+}
+
+input:focus {
+  outline: none;
+  background-color: #BFE9E5;
+  border-bottom: 3px solid #E4AFB5;
+}
+
+button {
+  font-family: 'Electrolize', monospace;
+  background-color: #BFE9E5;
+  font-size: 20px;
+  color: #89696D;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow:  5px 5px 10px #acd2ce,
+             -5px -5px 10px #d2fffc;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.short {
+  color: #89696D;
+  margin-top: 1rem;
+  background-color: #BFE9E5;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.short a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a, a:visited, a:active {
+  color: inherit;
+}
+
+.short a:hover {
+  color: #E4AFB5;
+}
